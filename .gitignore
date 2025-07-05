@@ -1,0 +1,35 @@
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Configs de IDE
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Testes locais do Uvicorn
+*.sqlite3
+
+# Jupyter (caso use)
+.ipynb_checkpoints/
+
+# GitHub Copilot se usar
+copilot.*
+
+# Arquivos sensíveis (opcional, mas recomendado)
+*.env
+.env.*
